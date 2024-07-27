@@ -265,7 +265,7 @@ function submitForm(e) {
 
     success: function () {
       // clear form and show a success message
-      alert("Pradeep Will Contact you soon!");
+      alert("Varun Will Contact you soon!");
       document.getElementById("contactForm").reset();
       location.reload();
     },

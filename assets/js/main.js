@@ -231,7 +231,7 @@ function submitForm(e) {
 
   var Namere = /[A-Za-z]{1}[A-Za-z]/;
   if (!Namere.test($("#name").val())) {
-    alert("Name can not less than 2 char");
+    alert("Name cannot be less than 2 characters");
     return;
   }
 
